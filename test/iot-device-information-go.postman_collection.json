@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "88357013-485e-4abf-85a3-6f1bbcbc287b",
+		"name": "iot-device-information-go",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/authorization",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/authorization",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"authorization"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/geoposition",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/geoposition",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"geoposition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/identification",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/identification",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"identification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/uuid",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/uuid",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"uuid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
