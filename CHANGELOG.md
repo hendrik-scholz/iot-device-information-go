@@ -11,5 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - created identification endpoint
 - created UUID endpoint
 
-[Unreleased]: https://github.com/hendrik-scholz/iot-device-registry-go/compare/0.9.0...HEAD
-[0.9.0]: https://github.com/hendrik-scholz/iot-device-registry-go/releases/tag/0.9.0
+[Unreleased]: https://github.com/hendrik-scholz/iot-device-information-go/compare/0.9.0...HEAD
+[0.9.0]: https://github.com/hendrik-scholz/iot-device-information-go/releases/tag/0.9.0
